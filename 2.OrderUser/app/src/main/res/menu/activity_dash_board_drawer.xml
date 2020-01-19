@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_addOrder"
+            android:icon="@drawable/ic_add_circle_outline_black_24dp"
+            android:title="Add Order" />
+
+        <item
+            android:id="@+id/nav_OrdReport"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="Order Report" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_ChangeAddress"
+            android:icon="@drawable/ic_edit_location_black_24dp"
+            android:title="Change Address" />
+        <item
+            android:id="@+id/nav_changePass"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+</menu>
